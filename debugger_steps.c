@@ -20,7 +20,7 @@ https://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1
 
 compile debuggee with -static flag:  $ gcc -static sleeper.c -o sleeper && ./sleeper
 
-address where to put INT 33 (0xCC): 
+address where to put INT 3 (0xCC): 
     $ gdb sleeper
     (gdb) disassemble main
 OR search in $ objdump -d sleeper
